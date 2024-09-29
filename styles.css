@@ -4,22 +4,49 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 body {
-    background-color: #f4f4f9;
+    background-color: #555555;
     color: #333;
     line-height: 1.6;
+    
 }
 
 /* Header Section */
 header {
     background: linear-gradient(to right, #4A90E2, #9013FE);
+    /*animation: backgroundChange 30s infinite alternate;*/
     color: white;
-    padding: 80px 0;
+    padding: 80px 0px;
     text-align: center;
+    
 }
 
+@keyframes backgroundChange {
+   0%   { background-color: #FFB6C1; } /* Light Pink */
+    5%   { background-color: #F08080; } /* Light Coral */
+    10%  { background-color: #FFA07A; } /* Light Salmon */
+    15%  { background-color: #FAFAD2; } /* Light Goldenrod Yellow */
+    20%  { background-color: #FFFFE0; } /* Light Yellow */
+    25%  { background-color: #E0FFFF; } /* Light Cyan */
+    30%  { background-color: #87CEFA; } /* Light Sky Blue */
+    35%  { background-color: #ADD8E6; } /* Light Blue */
+    40%  { background-color: #B0C4DE; } /* Light Steel Blue */
+    45%  { background-color: #20B2AA; } /* Light Sea Green */
+    50%  { background-color: #90EE90; } /* Light Green */
+    55%  { background-color: #98FB98; } /* Pale Green */
+    60%  { background-color: #32CD32; } /* Light Lime Green */
+    65%  { background-color: #D3D3D3; } /* Light Gray */
+    70%  { background-color: #778899; } /* Light Slate Gray */
+    75%  { background-color: #E6E6FA; } /* Lavender */
+    80%  { background-color: #D8BFD8; } /* Thistle */
+    85%  { background-color: #DDA0DD; } /* Plum */
+    90%  { background-color: #FFE4E1; } /* Misty Rose */
+    95%  { background-color: #F0FFF0; } /* Honeydew */
+    100% { background-color: #F0FFFF; } /* Azure */
+}
 header h1 {
     font-size: 3rem;
     margin-bottom: 10px;
@@ -45,6 +72,7 @@ header p {
 .cta-button:hover {
     background-color: #4A90E2;
     color: white;
+    
 }
 
 /* About Section */
@@ -67,7 +95,8 @@ header p {
 
 /* Founders Section */
 #founders {
-    background-color: #f4f4f9;
+    /*background-color: #f4f4f9;*/
+    animation: backgroundChange 30s infinite alternate;
     padding: 60px 0;
     text-align: center;
 }
@@ -84,7 +113,8 @@ header p {
 }
 
 .founder {
-    background-color: white;
+    /*background-color: white;*/
+    animation: backgroundChange 30s infinite alternate;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
@@ -154,3 +184,4 @@ footer p {
         font-size: 1rem;
     }
 }
+
